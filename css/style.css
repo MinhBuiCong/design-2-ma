@@ -74,7 +74,8 @@ body {
 
 .carousel > .carousel-indicators > button {
   background-color: #e26e49;
-  height: 1rem;
+  height: 0.8rem;
+  margin: 0 0.5rem;
 }
 
 @media screen and (max-width: 574px) {
