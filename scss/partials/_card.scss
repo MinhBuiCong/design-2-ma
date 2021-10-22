@@ -1,0 +1,153 @@
+.container {
+  margin-bottom: 4rem;
+  padding: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  .row {
+    margin-bottom: 4rem;
+  }
+}
+
+.container > .row-1 {
+  .card {
+    padding: 0;
+    box-shadow: none;
+
+    .card-header {
+      background-color: #d1b18d;
+      color: #fff;
+      padding: 0.5rem 0;
+      font-size: $text-head;
+    }
+    .card-body {
+      padding: 2rem 0;
+      .card-title {
+        color: black;
+        margin-bottom: 1rem;
+        font-size: $text-head;
+      }
+      .card-text {
+        color: gray;
+        font-size: $text-p;
+        margin-bottom: 2rem;
+      }
+
+      .btn {
+        background-color: $primary-color;
+        border: none;
+        padding: 1rem 2rem;
+      }
+      .btn:hover {
+        opacity: 0.5;
+      }
+    }
+    .card-footer {
+      background-color: #d1b18d;
+
+      p {
+        color: #fff;
+        margin: 0;
+        font-size: $text-p;
+      }
+    }
+  }
+}
+
+.container > .row-2 > .card-1 {
+  padding: 0 1rem 0 0;
+}
+.container > .row-2 > .card-2 {
+  padding: 0 0 0 1rem;
+}
+
+.container > .row-2 > .col-sm-6 {
+  .card > .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .card-title {
+      font-size: $text-head;
+    }
+    .card-text {
+      text-align: center;
+      font-size: $text-p;
+      margin-bottom: 2rem;
+      color: gray;
+    }
+    .btn {
+      width: 10rem;
+      background-color: $primary-color;
+      border: none;
+    }
+    .btn:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.container > .row-3 > .card {
+  margin-bottom: 4rem;
+  padding: 0;
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .card-title {
+      font-size: $text-head;
+      margin-bottom: 1rem;
+      color: $primary-color;
+    }
+    .card-text {
+      font-size: $text-s-head;
+      text-align: center;
+      color: gray;
+    }
+    .card-text > .text-muted {
+      font-size: $text-p;
+    }
+  }
+  .card-img-bottom {
+    height: 15rem;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .container > .row {
+    margin-bottom: 2rem;
+  }
+
+  .container > .row-2 {
+    margin-bottom: 0;
+
+    .card-1 {
+      padding: 0;
+    }
+    .card-2 {
+      padding: 0;
+    }
+  }
+  .col-sm-6 {
+    margin-bottom: 2rem;
+
+    .card > .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .card-text {
+        text-align: center;
+      }
+    }
+  }
+  .container > .row-3 > .card {
+    margin-bottom: 2rem;
+  }
+}

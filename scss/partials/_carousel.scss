@@ -1,0 +1,20 @@
+.carousel {
+  margin-bottom: 4rem;
+
+  .carousel-inner > .carousel-item > img {
+    height: 20rem;
+    object-fit: cover;
+    object-position: bottom center;
+  }
+}
+
+.carousel > .carousel-indicators > button {
+  background-color: $primary-color;
+  height: 1rem;
+}
+
+@media screen and (max-width: 574px) {
+  .carousel {
+    margin-bottom: 2rem;
+  }
+}

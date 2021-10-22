@@ -1,0 +1,29 @@
+.navbar {
+  padding: 1rem 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.navbar > .container-fluid > .logo-container > img {
+  height: 3rem;
+}
+
+.navbar > .container-fluid > .navbar-toggler {
+  background-color: $primary-color;
+  border: none;
+  height: 2rem;
+  padding: 0 0.5rem;
+
+  :hover {
+    opacity: 0.5;
+  }
+  .navbar-toggler-icon {
+    height: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .navbar > .container-fluid > .collapse > ul > li > a {
+    padding: 1rem 0;
+  }
+}

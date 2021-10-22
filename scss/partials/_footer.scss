@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $third-color;
+
+  p {
+    margin: 1rem;
+    color: #fff;
+  }
+}
