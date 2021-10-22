@@ -15,7 +15,6 @@ body {
 
 .wrapper {
   min-height: 100%;
-  margin-bottom: 50px;
   margin: 0 auto 20rem auto;
 }
 
@@ -49,6 +48,9 @@ body {
 }
 
 @media screen and (max-width: 991px) {
+  .navbar > .container-fluid {
+    padding: 0 1rem;
+  }
   .navbar > .container-fluid > .collapse > ul > li > a {
     padding: 1rem 0;
   }
