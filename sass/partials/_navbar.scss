@@ -8,6 +8,10 @@
   }
 }
 
+.navbar > .container-fluid > .collapse > ul > li > a {
+  color: $primary-color;
+}
+
 .navbar > .container-fluid > .logo-container > img {
   height: 3rem;
 }

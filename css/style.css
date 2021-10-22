@@ -15,7 +15,7 @@ body {
 
 .wrapper {
   min-height: 100%;
-  margin: 0 auto 20rem auto;
+  margin: 0 auto 10rem auto;
 }
 
 .navbar {
@@ -26,6 +26,10 @@ body {
 
 .navbar .container-fluid {
   padding: 0;
+}
+
+.navbar > .container-fluid > .collapse > ul > li > a {
+  color: #e26e49;
 }
 
 .navbar > .container-fluid > .logo-container > img {
