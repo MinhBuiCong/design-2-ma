@@ -16,3 +16,9 @@ body {
   min-height: 100%;
   margin: 0 auto 10rem auto;
 }
+
+@media screen and (max-width: 1040px) {
+  .wrapper {
+    overflow-x: hidden;
+  }
+}
