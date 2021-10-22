@@ -42,15 +42,6 @@
         opacity: 0.5;
       }
     }
-    .card-footer {
-      background-color: #d1b18d;
-
-      p {
-        color: #fff;
-        margin: 0;
-        font-size: $text-p;
-      }
-    }
   }
 }
 
@@ -131,6 +122,12 @@
       }
       .card-text {
         margin-bottom: 1rem;
+      }
+      .btn {
+        background-color: $primary-color;
+        font-size: $text-p;
+        border: none;
+        padding: 0.5rem 1rem;
       }
     }
   }

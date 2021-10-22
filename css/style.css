@@ -140,16 +140,6 @@ body {
   opacity: 0.5;
 }
 
-.container > .row-1 .card .card-footer {
-  background-color: #d1b18d;
-}
-
-.container > .row-1 .card .card-footer p {
-  color: #fff;
-  margin: 0;
-  font-size: 16px;
-}
-
 .container > .row-2 > .card-1 {
   padding: 0 1rem 0 0;
 }
@@ -250,6 +240,12 @@ body {
   }
   .container > .row-1 > .card > .card-body .card-text {
     margin-bottom: 1rem;
+  }
+  .container > .row-1 > .card > .card-body .btn {
+    background-color: #e26e49;
+    font-size: 16px;
+    border: none;
+    padding: 0.5rem 1rem;
   }
   .container > .row-2 {
     margin-bottom: 0;
