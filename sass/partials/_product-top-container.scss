@@ -1,0 +1,34 @@
+.product-top-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1000px;
+  border-top: 1px solid gray;
+
+  .breadcrumb-container {
+    .breadcrumb {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+    .breadcrumb > .breadcrumb-item {
+      font-size: $text-p;
+    }
+
+    .breadcrumb > .breadcrumb-item > a {
+      text-decoration: none;
+      color: black;
+    }
+    .breadcrumb > .breadcrumb-item > a:hover {
+      opacity: 0.5;
+      text-decoration: underline;
+    }
+  }
+
+  .sort {
+    margin-top: 0.5rem;
+    .select-button > .form-select {
+      width: 200px;
+      font-size: $text-p;
+    }
+  }
+}

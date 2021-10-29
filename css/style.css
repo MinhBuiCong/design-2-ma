@@ -310,57 +310,6 @@ footer p {
   color: #fff;
 }
 
-.nav-bottom {
-  max-width: 1000px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-bottom: 1px solid gray;
-  padding-bottom: 20px;
-}
-
-.nav-bottom > .categories > .btn {
-  font-size: 16px;
-  color: black;
-}
-
-.nav-bottom > .select-button > .form-select {
-  width: 300px;
-  font-size: 16px;
-}
-
-.breadcrumb-container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.breadcrumb-container .breadcrumb {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-
-.breadcrumb-container .breadcrumb > .breadcrumb-item {
-  font-size: 16px;
-}
-
-.breadcrumb-container .breadcrumb > .breadcrumb-item > a {
-  text-decoration: none;
-  color: black;
-}
-
-.breadcrumb-container .breadcrumb > .breadcrumb-item > a:hover {
-  opacity: 0.5;
-  text-decoration: underline;
-}
-
 .filter .accordion {
   margin-bottom: 0.1rem;
 }
@@ -369,8 +318,9 @@ footer p {
   font-size: 16px;
 }
 
-.filter .collapse > .accordion-body {
+.filter .accordion-collapse > .accordion-body > p {
   font-size: 16px;
+  margin-bottom: 0;
 }
 
 .filter .price-range-container {
@@ -473,5 +423,45 @@ footer p {
 
 .pagination-container nav > .pagination > li > a {
   color: #e26e49;
+}
+
+.product-top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1000px;
+  border-top: 1px solid gray;
+}
+
+.product-top-container .breadcrumb-container .breadcrumb {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.product-top-container .breadcrumb-container .breadcrumb > .breadcrumb-item {
+  font-size: 16px;
+}
+
+.product-top-container .breadcrumb-container .breadcrumb > .breadcrumb-item > a {
+  text-decoration: none;
+  color: black;
+}
+
+.product-top-container .breadcrumb-container .breadcrumb > .breadcrumb-item > a:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.product-top-container .sort {
+  margin-top: 0.5rem;
+}
+
+.product-top-container .sort .select-button > .form-select {
+  width: 200px;
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */

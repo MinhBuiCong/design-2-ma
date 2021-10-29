@@ -20,7 +20,8 @@ export function filter() {
         aria-labelledby="flush-headingOne"
         data-bs-parent="#accordionFlushExample"
       >
-        <div class="accordion-body">Placeholder</div>
+        <div class="accordion-body">
+        <p>placeholder</p></div>
       </div>
     </div>
     <div class="accordion-item">
@@ -42,7 +43,7 @@ export function filter() {
         aria-labelledby="flush-headingTwo"
         data-bs-parent="#accordionFlushExample"
       >
-        <div class="accordion-body">Placeholder</div>
+        <div class="accordion-body"><p>placeholder</p></div>
       </div>
     </div>
     <div class="accordion-item">
@@ -64,7 +65,7 @@ export function filter() {
         aria-labelledby="flush-headingThree"
         data-bs-parent="#accordionFlushExample"
       >
-        <div class="accordion-body">Placeholder</div>
+        <div class="accordion-body"><p>placeholder</p></div>
       </div>
     </div>
   </div>
@@ -96,7 +97,7 @@ export function filter() {
         aria-labelledby="flush-headingOne"
         data-bs-parent="#accordionFlushExample"
       >
-        <div class="accordion-body">Placeholder</div>
+        <div class="accordion-body"><p>placeholder</p></div>
       </div>
     </div>
   </div>
@@ -120,7 +121,7 @@ export function filter() {
         aria-labelledby="flush-headingOne"
         data-bs-parent="#accordionFlushExample"
       >
-        <div class="accordion-body">Placeholder</div>
+        <div class="accordion-body"><p>placeholder</p></div>
       </div>
     </div>
   </div>
