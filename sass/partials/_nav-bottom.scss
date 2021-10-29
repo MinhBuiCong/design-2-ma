@@ -1,0 +1,19 @@
+.nav-bottom {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.nav-bottom > .categories > .btn {
+  font-size: $text-p;
+  color: black;
+}
+
+.nav-bottom > .select-button > .form-select {
+  width: 300px;
+  font-size: $text-p;
+}
