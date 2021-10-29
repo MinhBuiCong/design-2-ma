@@ -321,6 +321,7 @@ footer p {
 .filter .accordion-collapse > .accordion-body > p {
   font-size: 16px;
   margin-bottom: 0;
+  margin-left: 0.5rem;
 }
 
 .filter .price-range-container {
