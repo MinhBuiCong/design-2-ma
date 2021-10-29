@@ -23,7 +23,8 @@
         margin: 0 auto;
         font-size: $text-p;
         text-align: center;
-        border: 0.1rem solid rgba(128, 128, 128, 0.411);
+        border: 0.01rem solid rgba(128, 128, 128, 0.411);
+        border-radius: 2px;
       }
     }
   }
