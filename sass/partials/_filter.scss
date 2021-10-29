@@ -1,0 +1,30 @@
+.filter {
+  .accordion {
+    margin-bottom: 0.1rem;
+  }
+  .accordion > .accordion-item > .accordion-header > .accordion-button {
+    font-size: $text-p;
+  }
+  .price-range-container {
+    background-color: white;
+    margin-bottom: 0.1rem;
+    .form-label {
+      padding-left: 1.3rem;
+      font-size: $text-p;
+    }
+    .form-range {
+      padding: 0 1rem;
+    }
+    .input-range-container {
+      display: flex;
+      padding-bottom: 0.5rem;
+      input {
+        width: 30%;
+        margin: 0 auto;
+        font-size: $text-p;
+        text-align: center;
+        border: 0.1rem solid rgba(128, 128, 128, 0.411);
+      }
+    }
+  }
+}

@@ -334,7 +334,8 @@ footer p {
 }
 
 .breadcrumb-container .breadcrumb {
-  margin-top: 20px;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
 }
 
 .breadcrumb-container .breadcrumb > .breadcrumb-item {
@@ -349,5 +350,42 @@ footer p {
 .breadcrumb-container .breadcrumb > .breadcrumb-item > a:hover {
   opacity: 0.5;
   text-decoration: underline;
+}
+
+.filter .accordion {
+  margin-bottom: 0.1rem;
+}
+
+.filter .accordion > .accordion-item > .accordion-header > .accordion-button {
+  font-size: 16px;
+}
+
+.filter .price-range-container {
+  background-color: white;
+  margin-bottom: 0.1rem;
+}
+
+.filter .price-range-container .form-label {
+  padding-left: 1.3rem;
+  font-size: 16px;
+}
+
+.filter .price-range-container .form-range {
+  padding: 0 1rem;
+}
+
+.filter .price-range-container .input-range-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 0.5rem;
+}
+
+.filter .price-range-container .input-range-container input {
+  width: 30%;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+  border: 0.1rem solid rgba(128, 128, 128, 0.411);
 }
 /*# sourceMappingURL=style.css.map */
