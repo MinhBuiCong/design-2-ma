@@ -67,7 +67,8 @@ body {
 }
 
 .carousel {
-  margin-bottom: 4rem;
+  margin: 0 auto 4rem auto;
+  max-width: 1028px;
 }
 
 .carousel .carousel-inner > .carousel-item > img {
