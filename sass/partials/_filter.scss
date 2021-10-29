@@ -18,6 +18,9 @@
     .form-range {
       padding: 0 1rem;
     }
+    .form-range::-webkit-slider-thumb {
+      background: $primary-color;
+    }
     .input-range-container {
       display: flex;
       padding-bottom: 0.5rem;

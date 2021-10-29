@@ -387,6 +387,10 @@ footer p {
   padding: 0 1rem;
 }
 
+.filter .price-range-container .form-range::-webkit-slider-thumb {
+  background: #e26e49;
+}
+
 .filter .price-range-container .input-range-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -424,7 +428,7 @@ footer p {
 
 .product-container .product-row > .col-6:hover {
   opacity: 0.7;
-  border: 0.1px solid black;
+  border: 0.1px solid #e26e49;
   border-radius: 5px;
 }
 
@@ -465,5 +469,9 @@ footer p {
 
 .pagination-container {
   margin-bottom: 4rem;
+}
+
+.pagination-container nav > .pagination > li > a {
+  color: #e26e49;
 }
 /*# sourceMappingURL=style.css.map */
