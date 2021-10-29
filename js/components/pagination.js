@@ -1,5 +1,5 @@
 export function pagination() {
-  const paginationContainer = document.querySelector(".pagination-conainer");
+  const paginationContainer = document.querySelector(".pagination-container");
   paginationContainer.innerHTML = `<nav aria-label="Page navigation example">
     <ul class="pagination justify-content-center">
       <li class="page-item disabled">
