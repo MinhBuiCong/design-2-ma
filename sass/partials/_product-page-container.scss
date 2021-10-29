@@ -1,11 +1,42 @@
 .product-container {
-  display: flex;
-  flex-direction: row;
-  a {
-    text-decoration: none;
-    color: gray;
+  .product-row-1 {
+    display: flex;
+    margin: 0 auto 2rem auto;
   }
-  .card {
-    width: 300px;
+  .product-row-2 {
+    display: flex;
+    margin: 0 auto 2rem auto;
+  }
+  .product-row > .col-6 {
+    width: auto;
+    margin: 0 auto;
+  }
+  .product-row > .col-6:hover {
+    opacity: 0.7;
+    border: 1px solid black;
+  }
+  .product-row > .col-6 {
+    a {
+      text-decoration: none;
+      color: gray;
+    }
+    .card {
+      width: 300px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .card-body {
+        flex: none;
+      }
+      .card-body > .card-title {
+        color: black;
+        font-size: $text-s-head;
+      }
+      .card-body > .card-text {
+        font-size: $text-p;
+      }
+    }
   }
 }
