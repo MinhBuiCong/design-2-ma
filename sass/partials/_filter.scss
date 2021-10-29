@@ -5,6 +5,9 @@
   .accordion > .accordion-item > .accordion-header > .accordion-button {
     font-size: $text-p;
   }
+  .collapse > .accordion-body {
+    font-size: $text-p;
+  }
   .price-range-container {
     background-color: white;
     margin-bottom: 0.1rem;
