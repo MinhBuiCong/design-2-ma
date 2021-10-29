@@ -17,6 +17,12 @@ body {
   margin: 0 auto 10rem auto;
 }
 
+.product-title {
+  color: $primary-color;
+  max-width: 1000px;
+  margin: 0 auto 2rem auto;
+}
+
 @media screen and (max-width: 1040px) {
   .wrapper {
     overflow-x: hidden;
