@@ -41,3 +41,14 @@
     }
   }
 }
+
+@media screen and (max-width: 870px) {
+  .product-container {
+    margin: 0 auto;
+    .product-row-1 {
+    }
+    .product-row > .col-6 {
+      margin: 1rem;
+    }
+  }
+}

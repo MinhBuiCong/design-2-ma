@@ -38,3 +38,16 @@
     }
   }
 }
+
+.filter-mobile-container {
+  display: none;
+}
+
+@media screen and(max-width:870px) {
+  .filter-mobile-container {
+    display: block;
+  }
+  .filter {
+    display: none;
+  }
+}
