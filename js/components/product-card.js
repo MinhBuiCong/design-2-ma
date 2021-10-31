@@ -1,3 +1,5 @@
+import { icon } from "../../icon/icon.js";
+
 export function productCard() {
   const productContainer = document.querySelector(".product-container");
   productContainer.innerHTML = `          <div class="product-row product-row-1">
@@ -10,8 +12,13 @@ export function productCard() {
           alt="pillow"
         />
         <div class="card-body">
-          <h5 class="card-title">White Pillow</h5>
-          <p class="card-text">Soft white pillow</p>
+          <div class="text-container"> 
+            <h5 class="card-title">White Pillow</h5>
+            <p class="card-text">Soft white pillow</p>
+          </div>
+          <div class="icon-container">
+            ${icon.like}
+          </div>
         </div>
       </div>
     </a>
@@ -27,8 +34,13 @@ export function productCard() {
           />
         </div>
         <div class="card-body">
-          <h5 class="card-title">Brown cup brick</h5>
-          <p class="card-text">Cup brick</p>
+          <div class="text-container"> 
+            <h5 class="card-title">Brown cup brick</h5>
+            <p class="card-text">Cup brick</p>
+          </div>
+          <div class="icon-container">
+            ${icon.like}
+          </div>
         </div>
       </div>
     </a>
@@ -46,9 +58,14 @@ export function productCard() {
           />
         </div>
         <div class="card-body">
-          <h5 class="card-title">Black modern vase</h5>
-          <p class="card-text">Black vase</p>
+        <div class="text-container"> 
+        <h5 class="card-title">Black modern vase</h5>
+        <p class="card-text">Black vase</p>
         </div>
+        <div class="icon-container">
+          ${icon.like}
+        </div>
+      </div>
       </div>
     </a>
   </div>
@@ -63,8 +80,12 @@ export function productCard() {
           />
         </div>
         <div class="card-body">
-          <h5 class="card-title">Black modern vase</h5>
-          <p class="card-text">Black vase</p>
+        <div class="text-container"> 
+        <h5 class="card-title">Black modern vase</h5>
+        <p class="card-text">Black vase</p>
+        </div>
+        <div class="icon-container">
+          ${icon.like}
         </div>
       </div>
     </a>

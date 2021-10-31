@@ -15,4 +15,8 @@ export const icon = {
   </g>
 </svg>
 `,
+  like: `<svg xmlns="http://www.w3.org/2000/svg" width="31" height="30.02" viewBox="0 0 21 20.02">
+<path id="star" d="M12,2l3.09,6.26L22,9.27l-5,4.87,1.18,6.88L12,17.77,5.82,21.02,7,14.14,2,9.27,8.91,8.26Z" transform="translate(-1.5 -1.5)" fill="none" fill="#e26e49" stroke="#e26e49" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+</svg>
+`,
 };

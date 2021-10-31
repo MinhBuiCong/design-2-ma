@@ -29,16 +29,31 @@
       justify-content: space-between;
 
       .card-body {
+        display: flex;
         flex: none;
+        flex-direction: row;
+        justify-content: space-between;
+        .text-container {
+          flex-direction: column;
+          width: fit-content;
+        }
       }
-      .card-body > .card-title {
+      .card-body > .text-container > .card-title {
         color: black;
         font-size: $text-s-head;
-        text-align: center;
+        width: fit-content;
       }
-      .card-body > .card-text {
+      .card-body > .text-container > .card-text {
         font-size: $text-p;
-        text-align: center;
+        width: fit-content;
+      }
+      .card-body > .icon-container > svg {
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+      .card-body > .icon-container > svg:hover {
+        fill: #e26e49;
       }
     }
   }
