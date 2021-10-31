@@ -4,6 +4,8 @@
   }
   .accordion > .accordion-item > .accordion-header > .accordion-button {
     font-size: $text-p;
+    background-color: inherit;
+    color: black;
   }
 
   .accordion-collapse > .accordion-body > p {
