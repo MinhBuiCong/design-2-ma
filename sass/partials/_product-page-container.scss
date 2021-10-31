@@ -34,9 +34,11 @@
       .card-body > .card-title {
         color: black;
         font-size: $text-s-head;
+        text-align: center;
       }
       .card-body > .card-text {
         font-size: $text-p;
+        text-align: center;
       }
     }
   }

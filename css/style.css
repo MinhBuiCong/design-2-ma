@@ -322,8 +322,8 @@ footer p {
   background-image: url("/images/products/background-product-page.png");
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  -webkit-filter: grayscale(30%);
+          filter: grayscale(30%);
   margin: 0 auto 2rem auto;
 }
 
@@ -462,10 +462,12 @@ footer p {
 .product-container .product-row > .col-6 .card .card-body > .card-title {
   color: black;
   font-size: 20px;
+  text-align: center;
 }
 
 .product-container .product-row > .col-6 .card .card-body > .card-text {
   font-size: 16px;
+  text-align: center;
 }
 
 @media screen and (max-width: 870px) {
