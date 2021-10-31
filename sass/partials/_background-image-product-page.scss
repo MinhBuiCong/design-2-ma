@@ -3,7 +3,8 @@
   height: 300px;
   background-image: url("/images/products/background-product-page.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  filter: grayscale(30%);
+  filter: brightness(120%);
   margin: 0 auto 2rem auto;
 }
