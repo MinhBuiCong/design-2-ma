@@ -3,4 +3,7 @@
   nav > .pagination > li > a {
     color: $primary-color;
   }
+  nav > .pagination > .diabled {
+    opacity: 0.5;
+  }
 }
