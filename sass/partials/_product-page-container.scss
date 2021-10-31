@@ -43,12 +43,31 @@
 }
 
 @media screen and (max-width: 870px) {
+  .product-page-container > .row {
+    width: fit-content;
+    margin: 0 auto;
+  }
   .product-container {
     margin: 0 auto;
+    padding: 0;
+    width: fit-content;
+    .product-row > .col-6 {
+      margin: 0 1rem;
+    }
+  }
+}
+@media screen and (max-width: 720px) {
+  .product-container {
     .product-row-1 {
+      flex-direction: column;
+      margin: 0;
+    }
+    .product-row-2 {
+      flex-direction: column;
     }
     .product-row > .col-6 {
-      margin: 1rem;
+      margin: 0.5rem;
+      flex-direction: column;
     }
   }
 }

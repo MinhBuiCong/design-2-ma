@@ -45,7 +45,22 @@
 
 @media screen and(max-width:870px) {
   .filter-mobile-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    .btn {
+      margin: 1rem auto;
+      width: 4rem;
+      background-color: $primary-color;
+      color: white;
+      border: none;
+    }
+    .btn:hover {
+      opacity: 0.7;
+    }
+    .collapse {
+      margin-bottom: 1rem;
+    }
   }
   .filter {
     display: none;
