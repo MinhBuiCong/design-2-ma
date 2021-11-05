@@ -12,6 +12,7 @@
     }
     .breadcrumb > .breadcrumb-item {
       font-size: $text-p;
+      font-family: $font-text;
     }
 
     .breadcrumb > .breadcrumb-item > a {
@@ -29,6 +30,7 @@
     .select-button > .form-select {
       width: 200px;
       font-size: $text-p;
+      font-family: $font-text;
     }
   }
 }

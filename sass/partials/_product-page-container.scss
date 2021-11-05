@@ -20,6 +20,7 @@
     a {
       text-decoration: none;
       color: gray;
+      font-family: $font-text;
     }
     .card {
       width: 300px;
@@ -45,6 +46,7 @@
       }
       .card-body > .text-container > .card-text {
         font-size: $text-p;
+        font-family: $font-text;
         width: fit-content;
       }
       .card-body > .icon-container > svg {

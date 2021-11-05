@@ -144,12 +144,14 @@ body {
   color: gray;
   font-size: 16px;
   margin-bottom: 2rem;
+  font-family: "Bodoni Moda", serif;
 }
 
 .container > .row-1 .card .card-body .btn {
   background-color: #e26e49;
   border: none;
-  padding: 1rem 2rem;
+  padding: 1rem;
+  font-family: "Bodoni Moda", serif;
 }
 
 .container > .row-1 .card .card-body .btn:hover {
@@ -187,6 +189,7 @@ body {
 .container > .row-2 > .col-sm-6 .card > .card-body .card-text {
   text-align: center;
   font-size: 16px;
+  font-family: "Bodoni Moda", serif;
   margin-bottom: 2rem;
   color: gray;
 }
@@ -230,12 +233,14 @@ body {
 
 .container > .row-3 > .card .card-body .card-text {
   font-size: 20px;
+  font-family: "Bodoni Moda", serif;
   text-align: center;
   color: gray;
 }
 
 .container > .row-3 > .card .card-body .card-text > .text-muted {
   font-size: 16px;
+  font-family: "Bodoni Moda", serif;
 }
 
 .container > .row-3 > .card .card-img-bottom {
@@ -334,12 +339,14 @@ footer p {
 
 .filter .accordion > .accordion-item > .accordion-header > .accordion-button {
   font-size: 16px;
+  font-family: "Bodoni Moda", serif;
   background-color: inherit;
   color: black;
 }
 
 .filter .accordion-collapse > .accordion-body > p {
   font-size: 16px;
+  font-family: "Bodoni Moda", serif;
   margin-bottom: 0;
   margin-left: 0.5rem;
 }
@@ -347,11 +354,13 @@ footer p {
 .filter .price-range-container {
   background-color: white;
   margin-bottom: 0.1rem;
+  padding: 1rem 0;
 }
 
 .filter .price-range-container .form-label {
   padding-left: 1.3rem;
   font-size: 16px;
+  font-family: "Bodoni Moda", serif;
 }
 
 .filter .price-range-container .form-range {
@@ -440,6 +449,7 @@ footer p {
 .product-container .product-row > .col-6 a {
   text-decoration: none;
   color: gray;
+  font-family: "Bodoni Moda", serif;
 }
 
 .product-container .product-row > .col-6 .card {
@@ -493,6 +503,7 @@ footer p {
 
 .product-container .product-row > .col-6 .card .card-body > .text-container > .card-text {
   font-size: 16px;
+  font-family: "Bodoni Moda", serif;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -581,6 +592,7 @@ footer p {
 
 .product-top-container .breadcrumb-container .breadcrumb > .breadcrumb-item {
   font-size: 16px;
+  font-family: "Bodoni Moda", serif;
 }
 
 .product-top-container .breadcrumb-container .breadcrumb > .breadcrumb-item > a {
@@ -600,5 +612,6 @@ footer p {
 .product-top-container .sort .select-button > .form-select {
   width: 200px;
   font-size: 16px;
+  font-family: "Bodoni Moda", serif;
 }
 /*# sourceMappingURL=style.css.map */
